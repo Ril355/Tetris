@@ -2,6 +2,7 @@ import sys
 import pygame
 from pygame.locals import *
 
+# 画面サイズの定義
 SCREEN_X = 900
 SCREEN_Y = 750
 GRID_SIZE = 30
@@ -12,6 +13,7 @@ WHITE = (255, 255, 255)
 GRAY = (169, 169, 169)
 BLACK = (0, 0, 0)
 
+# 画面内の枠定義
 # (x, y, width, height)
 TETRIS_BOX = ((270,120), (300, 600))
 HOLD_BOX = ((120,120), (120, 120))
