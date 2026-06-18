@@ -24,6 +24,8 @@ NEXT_BOX = ((600, 120), (120, 600))
 
 
 class Tetris:
+    def hoge():
+        pass
     def __init__(self, screen):
         self.screen = screen
         self.clock = pygame.time.Clock()
